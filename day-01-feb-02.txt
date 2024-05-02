@@ -1,0 +1,40 @@
+Pre assessment
+-Cross site scripting
+-Burp Suite
+-Brute force attack, dictionary attack
+Module 1
+- discussion about info on target
+- whois
+- virustool
+- subfinder
+- httpx to ping domains
+- cat sub.txt | httpx | newFile.txt
+- eyewitness takes ss of websites
+- automate: subfinder -d example.com | httpx | tee sub_example.txt
+- shodan search engine or censys
+- Goolge dorking
+	- site:google.com insite:login
+- Open Multiple URLs to open multiple urls by pasting
+- Wappalyzer
+- OWASP ZAP
+Cross Site Scripting
+- reflected
+- Stored
+- DOM
+- Blin XSS
+
+XSShunter.com
+vulnweb.com
+
+broken access control using fuzzing
+
+cvss score
+
+ffuf -w Apache.fuzz.txt -u "url" -mc all
+
+bugcrowd.com
+
+dvwa -labs for cyber security
+
+nmap - for admins to check for the devices connected to the network and to check for open ports and services and vulnerabilities
+amass
